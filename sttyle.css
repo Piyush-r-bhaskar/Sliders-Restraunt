@@ -71,12 +71,12 @@ section {
   padding               : 1rem 9%;
 }
 
-.header .logo {
+/* .header .logo {
   animation             : shake 5s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite both;
   transform             : translate3d(0, 0, 0);
   backface-visibility   : hidden;
   perspective           : 1000px;
-}
+} */
 
 @keyframes shake {
   10%,
