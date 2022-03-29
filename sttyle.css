@@ -3,72 +3,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&family=Tangerine:wght@700&display=swap");
 
 * {
-  font-family           : "Poppins", sans-serif;
-  margin                : 0;
-  padding               : 0;
-  -webkit-box-sizing    : border-box;
-  box-sizing            : border-box;
-  outline               : none;
-  border                : none;
-  text-decoration       : none;
-  text-transform        : capitalize;
-  transition            : 0.3s linear;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.3s linear;
 }
 
 html {
-  font-size             : 62.5%;
-  overflow-x            : hidden;
-  scroll-behavior       : smooth;
-  scroll-padding-top    : 8.5rem;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8.5rem;
 }
 
 html::-webkit-scrollbar {
-  width                 : 1rem;
+  width: 1rem;
 }
 
 html::-webkit-scrollbar-track {
-  background            : rgb(248, 223, 194);
+  background: rgb(248, 223, 194);
 }
 
 html::-webkit-scrollbar-thumb {
-  background            : #e26782;
-  border-radius         : 5rem;
+  background: #e26782;
+  border-radius: 5rem;
 }
 
 section {
-  padding               : 2rem 9%;
+  padding: 2rem 9%;
 }
 .heading {
-  text-align            : center;
-  padding-bottom        : 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
 }
 
 .heading span {
-  font-family           : "Satisfy", cursive;
-  font-size             : 3rem;
-  color                 : #9b0b2a;
+  font-family: "Satisfy", cursive;
+  font-size: 3rem;
+  color: #9b0b2a;
 }
 
 .heading h3 {
-  font-size             : 3rem;
-  color                 : #130f40;
+  font-size: 3rem;
+  color: #130f40;
 }
 
 .header {
-  position              : sticky;
-  height                : 9.5rem;
-  top                   : 0;
-  left                  : 0;
-  right                 : 0;
-  z-index               : 1000;
-  background            : #fff;
+  position: sticky;
+  height: 9.5rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
 
-  box-shadow            : 0 1rem 1rem rgba(0, 0, 0, 0.05);
-  display               : flex;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+  display: flex;
 
-  align-items           : center;
-  justify-content       : space-between;
-  padding               : 1rem 9%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 9%;
 }
 
 /* .header .logo {
@@ -81,204 +81,204 @@ section {
 @keyframes shake {
   10%,
   90% {
-    transform           : translate3d(-1px, 0, 0);
+    transform: translate3d(-1px, 0, 0);
   }
 
   20%,
   80% {
-    transform           : translate3d(2px, 0, 0);
+    transform: translate3d(2px, 0, 0);
   }
 
   30%,
   50%,
   70% {
-    transform           : translate3d(-4px, 0, 0);
+    transform: translate3d(-4px, 0, 0);
   }
 
   40%,
   60% {
-    transform           : translate3d(4px, 0, 0);
+    transform: translate3d(4px, 0, 0);
   }
 }
 
 #menu-btn {
-  display               : none;
+  display: none;
 }
 
 .header .navbar a {
-  font-size             : 1.9rem;
-  font-weight           : 900;
-  margin                : 0 1rem;
-  color                 : #b42444;
-  display               : inline-block;
+  font-size: 1.9rem;
+  font-weight: 900;
+  margin: 0 1rem;
+  color: #b42444;
+  display: inline-block;
 }
 
 .header .navbar a:hover {
-  color                 : crimson;
-  transform             : scale(1.1);
+  color: crimson;
+  transform: scale(1.1);
   /* transform: translateY(-5px); */
 }
 
 .header .icons div {
-  height                : 4.5rem;
-  width                 : 4.5rem;
-  line-height           : 4.5rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
 
-  font-size             : 2rem;
-  background            : transparent;
-  color                 : #040311;
-  border-radius         : 0.5rem;
-  margin-left           : 0.3rem;
-  cursor                : pointer;
-  text-align            : center;
+  font-size: 2rem;
+  background: transparent;
+  color: #040311;
+  border-radius: 0.5rem;
+  margin-left: 0.3rem;
+  cursor: pointer;
+  text-align: center;
 }
 .header .icons .fas {
-  color                 : #b42444;
+  color: #b42444;
 }
 
 .header .icons div:hover {
-  color                 : #fff;
-  background            : #b42444;
+  color: #fff;
+  background: #b42444;
 }
 
 .search-form-container {
-  position              : fixed;
-  top                   : 8.5rem;
-  left                  : 0;
-  right                 : 0;
-  height                : calc(100vh - 8.5rem);
-  background            : #fff;
-  z-index               : 1000;
-  display               : none;
+  position: fixed;
+  top: 8.5rem;
+  left: 0;
+  right: 0;
+  height: calc(100vh - 8.5rem);
+  background: #fff;
+  z-index: 1000;
+  display: none;
 }
 
 .search-form-container.active {
-  display               : block;
+  display: block;
 }
 
 .search-form-container form {
-  height                : 7rem;
-  border                : 3px solid #b42444;
-  border-radius         : 4rem;
-  padding               : 0 2rem;
-  width                 : 100%;
+  height: 7rem;
+  border: 3px solid #b42444;
+  border-radius: 4rem;
+  padding: 0 2rem;
+  width: 100%;
 
-  display               : flex;
-  -webkit-box-align     : center;
-  -ms-flex-align        : center;
-  align-items           : center;
-  -webkit-animation     : fadeUp 0.4s linear;
-  animation             : fadeUp 0.4s linear;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-animation: fadeUp 0.4s linear;
+  animation: fadeUp 0.4s linear;
 }
 
 .search-form-container form input {
-  height                : 100%;
-  width                 : 100%;
-  font-size             : 1.7rem;
-  color                 : #130f40;
-  text-transform        : none;
-  border-radius         : 4rem;
+  height: 100%;
+  width: 100%;
+  font-size: 1.7rem;
+  color: #130f40;
+  text-transform: none;
+  border-radius: 4rem;
 }
 
 .search-form-container form input:focus ::placeholder {
-  visibility            : hidden;
+  visibility: hidden;
 }
 
 .search-form-container form label {
-  font-size             : 3rem;
-  cursor                : pointer;
-  color                 : #130f40;
+  font-size: 3rem;
+  cursor: pointer;
+  color: #130f40;
 }
 
 .search-form-container form label:hover {
-  color                 : #b42444;
+  color: #b42444;
 }
 
 @keyframes fadeUp {
   0% {
-    -webkit-transform   : translateX(35rem);
-    transform           : translateX(35rem);
-    opacity             : 0;
+    -webkit-transform: translateX(35rem);
+    transform: translateX(35rem);
+    opacity: 0;
   }
 }
 
 .shopping-cart-container {
-  position              : fixed;
-  top                   : 8.5rem;
-  left                  : 0;
-  right                 : 0;
-  z-index               : 1000;
-  height                : calc(100vh - 8.5rem);
-  background            : #fff;
-  overflow-y            : scroll;
-  padding-bottom        : 8rem;
-  display               : none;
+  position: fixed;
+  top: 8.5rem;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: calc(100vh - 8.5rem);
+  background: #fff;
+  overflow-y: scroll;
+  padding-bottom: 8rem;
+  display: none;
 }
 
 .shopping-cart-container.active {
-  display               : block;
+  display: block;
 }
 
 .shopping-cart-container::-webkit-scrollbar {
-  width                 : 1rem;
+  width: 1rem;
 }
 
 .shopping-cart-container::-webkit-scrollbar-track {
-  background            : #fff;
+  background: #fff;
 }
 
 .shopping-cart-container::-webkit-scrollbar-thumb {
-  background            : #e26782;
-  border-radius         : 5rem;
+  background: #e26782;
+  border-radius: 5rem;
 }
 
 .shopping-cart-container .title {
-  font-size             : 2.5rem;
-  padding               : 1rem;
-  color                 : #130f40;
-  border-bottom         : 0.1rem solid rgba(0, 0, 0, 0.2);
-  text-align            : center;
-  background-color      : rgba(255, 249, 249, 0.5);
-  border-radius         : 1rem 1rem 0 0;
+  font-size: 2.5rem;
+  padding: 1rem;
+  color: #130f40;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: rgba(255, 249, 249, 0.5);
+  border-radius: 1rem 1rem 0 0;
 }
 
 .shopping-cart-container .products-container {
-  border                : 0.1rem solid rgba(0, 0, 0, 0.2);
-  border-radius         : 1rem;
-  -webkit-animation     : fadeUp 0.4s linear;
-  animation             : fadeUp 0.4s linear;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  -webkit-animation: fadeUp 0.4s linear;
+  animation: fadeUp 0.4s linear;
 }
 
 .shopping-cart-container .products-container .box-container {
-  display               : -ms-grid;
-  display               : grid;
-  -ms-grid-columns      : (minmax(30rem, 1fr)) [auto-fit];
-  grid-template-columns : repeat(auto-fit, minmax(30rem, 1fr));
-  gap                   : 1rem;
-  padding               : 1.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(30rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1rem;
+  padding: 1.5rem;
 }
 
 .shopping-cart-container .products-container .box-container .box {
-  background-color      : rgba(238, 206, 206, 0.144);
-  border-radius         : 1rem;
-  display               : -webkit-box;
-  display               : -ms-flexbox;
-  display               : flex;
-  -webkit-box-align     : center;
-  -ms-flex-align        : center;
-  align-items           : center;
-  gap                   : 1.5rem;
-  padding               : 2rem;
-  position              : relative;
+  background-color: rgba(238, 206, 206, 0.144);
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  position: relative;
 }
 
 .shopping-cart-container .products-container .box-container .box .fa-times {
-  position              : absolute;
-  top                   : 0.7rem;
-  right                 : 1rem;
-  font-size             : 2rem;
-  cursor                : pointer;
-  color                 : #130f40;
+  position: absolute;
+  top: 0.7rem;
+  right: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #130f40;
 }
 
 .shopping-cart-container
@@ -286,21 +286,21 @@ section {
   .box-container
   .box
   .fa-times:hover {
-  color                 : #b42444;
+  color: #b42444;
 }
 
 .shopping-cart-container .products-container .box-container .box img {
-  height                : 8rem;
+  height: 8rem;
 }
 
 .shopping-cart-container .products-container .box-container .box .content h3 {
-  font-size             : 2rem;
-  color                 : #130f40;
+  font-size: 2rem;
+  color: #130f40;
 }
 
 .shopping-cart-container .products-container .box-container .box .content span {
-  font-size             : 1.5rem;
-  color                 : #666;
+  font-size: 1.5rem;
+  color: #666;
 }
 
 .shopping-cart-container
@@ -309,8 +309,8 @@ section {
   .box
   .content
   span.price {
-  color                 : #b42444;
-  font-size             : 1.7rem;
+  color: #b42444;
+  font-size: 1.7rem;
 }
 
 .shopping-cart-container
@@ -319,78 +319,78 @@ section {
   .box
   .content
   input {
-  width                 : 8rem;
-  padding               : 0.5rem 1.2rem;
-  font-size             : 1.5rem;
-  color                 : #130f40;
-  background-color      : rgba(238, 206, 206, 0.144);
-  border-radius         : 1rem;
-  box-shadow            : inset 2px 2px 15px rgba(238, 206, 206, 0.144);
-  margin                : 0.7rem 0;
+  width: 8rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.5rem;
+  color: #130f40;
+  background-color: rgba(238, 206, 206, 0.144);
+  border-radius: 1rem;
+  box-shadow: inset 2px 2px 15px rgba(238, 206, 206, 0.144);
+  margin: 0.7rem 0;
 }
 
 .shopping-cart-container .cart-total {
-  margin-top            : 2rem;
-  border                : 0.1rem solid rgba(0, 0, 0, 0.2);
-  border-radius         : 1rem;
-  -webkit-animation     : fadeUp 0.4s linear 0.4s backwards;
-  animation             : fadeUp 0.4s linear 0.4s backwards;
+  margin-top: 2rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  -webkit-animation: fadeUp 0.4s linear 0.4s backwards;
+  animation: fadeUp 0.4s linear 0.4s backwards;
 }
 
 .shopping-cart-container .cart-total .box {
-  padding               : 1.5rem;
+  padding: 1.5rem;
 }
 
 .shopping-cart-container .cart-total .box h3 {
-  color                 : #130f40;
-  font-size             : 2rem;
-  padding-bottom        : 0.7rem;
+  color: #130f40;
+  font-size: 2rem;
+  padding-bottom: 0.7rem;
 }
 
 .shopping-cart-container .cart-total .box h3 span {
-  color                 : #b42444;
+  color: #b42444;
 }
 
 .btn {
-  display               : inline-block;
-  margin-top            : 1rem;
-  padding               : 0.7rem 1.9rem;
-  font-size             : 1.7rem;
-  font-weight           : 800;
-  cursor                : pointer;
-  color                 : #fff;
-  background            : #b42444;
-  border-radius         : 2rem;
-  transition            : 0.3s ease;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.9rem;
+  font-size: 1.7rem;
+  font-weight: 800;
+  cursor: pointer;
+  color: #fff;
+  background: #b42444;
+  border-radius: 2rem;
+  transition: 0.3s ease;
 }
 
 .btn:hover {
-  background            : crimson;
+  background: crimson;
 }
 
 .login-form-container {
-  position              : fixed;
-  top                   : 9rem;
-  left                  : 0;
-  right                 : 0;
-  z-index               : 1000;
-  height                : calc(100vh - 8.5rem);
-  background            : #fff;
-  padding               : 0 2rem;
-  display               : none;
-  animation             : fadeUp 0.4s linear;
+  position: fixed;
+  top: 9rem;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: calc(100vh - 8.5rem);
+  background: #fff;
+  padding: 0 2rem;
+  display: none;
+  animation: fadeUp 0.4s linear;
 }
 
 .login-form-container.active {
-  display               : block;
+  display: block;
 }
 
 .main {
-  width                 : 350px;
-  margin                : 5px auto;
-  height                : 500px;
-  overflow              : hidden;
-  background-image      : linear-gradient(
+  width: 350px;
+  margin: 5px auto;
+  height: 500px;
+  overflow: hidden;
+  background-image: linear-gradient(
     to bottom,
     #b42444,
     #852039,
@@ -399,71 +399,71 @@ section {
     #6e2035
   );
 
-  border-radius         : 10px;
-  box-shadow            : 4px 4px 15px #852039;
+  border-radius: 10px;
+  box-shadow: 4px 4px 15px #852039;
 }
 #chk {
-  display               : none;
+  display: none;
 }
 
 .signup {
-  position              : relative;
-  width                 : 100%;
-  height                : 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 label {
-  color                 : #fff;
-  font-size             : 3.3em;
-  justify-content       : center;
-  display               : flex;
-  margin                : 60px;
-  font-weight           : 900;
-  cursor                : pointer;
-  transition            : 0.5s ease-in-out;
+  color: #fff;
+  font-size: 3.3em;
+  justify-content: center;
+  display: flex;
+  margin: 60px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
 }
 
 .signup input,
 .login input {
-  width                 : 70%;
-  background            : #fff;
-  justify-content       : center;
-  display               : flex;
-  margin                : 15px auto;
-  padding               : 1rem 3rem;
-  border                : none;
-  outline               : none;
-  border-radius         : 20px;
-  font-size             : 1.3rem;
+  width: 70%;
+  background: #fff;
+  justify-content: center;
+  display: flex;
+  margin: 15px auto;
+  padding: 1rem 3rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 1.3rem;
 }
 .signup input::placeholder,
 .login input::placeholder {
-  opacity               : 0.5;
+  opacity: 0.5;
 }
 
 .sign-up {
-  width                 : 40%;
-  height                : 40px;
-  margin                : 15px auto;
-  justify-content       : center;
-  display               : block;
-  color                 : #fff;
-  background            : #b42444;
-  font-size             : 2rem;
-  font-weight           : bold;
-  margin-top            : 20px;
-  outline               : none;
-  border                : none;
-  border-radius         : 30px;
-  transition            : 0.2s ease-in;
-  cursor                : pointer;
+  width: 40%;
+  height: 40px;
+  margin: 15px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #b42444;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
 }
 .sign-up:hover {
-  background            : crimson;
+  background: crimson;
 }
 .login {
-  height                : 460px;
-  background-image      : linear-gradient(
+  height: 460px;
+  background-image: linear-gradient(
     to top,
     #b42444,
     #852039,
@@ -471,723 +471,725 @@ label {
     #5a2936,
     #632233
   );
-  box-shadow            : 4px 4px 15px #852039;
-  border-radius         : 60% / 23%;
-  transform             : translateY(-180px);
-  transition            : 0.8s ease-in-out;
+  box-shadow: 4px 4px 15px #852039;
+  border-radius: 60% / 23%;
+  transform: translateY(-180px);
+  transition: 0.8s ease-in-out;
 }
 .login input {
-  margin                : 15px auto;
+  margin: 15px auto;
 }
 
 .login label {
-  color                 : #fff;
-  transform             : scale(0.6);
+  color: #fff;
+  transform: scale(0.6);
 }
 
 #chk:checked ~ .login {
-  transform             : translateY(-500px);
+  transform: translateY(-500px);
 }
 #chk:checked ~ .login label {
-  transform             : scale(1);
+  transform: scale(1);
 }
 #chk:checked ~ .signup label {
-  transform             : scale(0.6);
+  transform: scale(0.6);
 }
 
 .home {
-  display               : flex;
-  align-items           : center;
-  flex-wrap             : wrap-reverse;
-  gap                   : 3rem;
-  position              : relative;
-  overflow              : hidden;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  gap: 3rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .home .content {
-  flex                  : 1 30rem;
+  flex: 1 30rem;
 }
 
 .home .content span {
-  font-size             : 2rem;
-  color                 : #b42444;
-  font-weight           : 900;
+  font-size: 2rem;
+  color: #b42444;
+  font-weight: 900;
 }
 
 .home .content h3 {
-  font-size             : 4rem;
-  color                 : #130f40;
-  padding-top           : 1rem;
+  font-size: 4rem;
+  color: #130f40;
+  padding-top: 1rem;
 }
 
 .home .content p {
-  font-size             : 1.4rem;
-  color                 : #666;
-  line-height           : 2;
-  padding               : 1rem 0;
+  font-size: 1.4rem;
+  color: #666;
+  line-height: 2;
+  padding: 1rem 0;
 }
 
 .home .image {
-  flex                  : 1 1 41rem;
-  margin                : 1rem 0;
-  pointer-events        : none;
+  flex: 1 1 41rem;
+  margin: 1rem 0;
+  pointer-events: none;
   /* z-index: 1000; */
 }
 
 .home .image .home-img {
   /* width: 100%; */
-  margin-top            : 4rem;
-  animation             : rotate 10s infinite linear;
-  height                : 45rem;
+  margin-top: 4rem;
+  animation: rotate 10s infinite linear;
+  height: 45rem;
 }
 
 .category {
-  display               : -ms-grid;
-  display               : grid;
-  grid-template-columns : repeat(auto-fit, minmax(17rem, 1fr));
-  gap                   : 1.5rem;
-  padding-bottom        : 5rem;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  gap: 1.5rem;
+  padding-bottom: 5rem;
 }
 
 .category .box {
-  padding               : 2rem;
-  text-align            : center;
-  border-radius         : 1rem;
-  background            : #f7f7f7;
-  animation             : beat 0.25s infinite alternate;
-  transform-origin      : center;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  background: #f7f7f7;
+  animation: beat 0.25s infinite alternate;
+  transform-origin: center;
 }
 
 @keyframes beat {
   to {
-    transform           : scale(0.9);
+    transform: scale(0.9);
   }
 }
 
 .category .box:hover {
-  background            : #b42444;
+  background: #b42444;
 }
 
 .category .box:hover h3 {
-  color                 : #fff;
+  color: #fff;
 }
 
 .category .box img {
-  height                : 9rem;
+  height: 9rem;
 }
 
 .category .box h3 {
-  font-size             : 1.8rem;
-  color                 : #130f40;
+  font-size: 1.8rem;
+  color: #130f40;
 }
 
 .about {
-  display               : flex;
-  flex-wrap             : wrap;
-  align-items           : center;
-  gap                   : 2rem;
-  background            : #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  background: #f7f7f7;
 }
 
 .about .image {
-  flex                  : 1 1 40rem;
+  flex: 1 1 40rem;
 }
 .about .image img {
-  width                 : 90%;
-  animation             : rotate 10s infinite linear;
+  width: 90%;
+  animation: rotate 10s infinite linear;
 }
 
 @keyframes rotate {
   0% {
-    transform           : rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 .about .content {
-  flex                  : 1 1 40rem;
+  flex: 1 1 40rem;
 }
 
 .about .content span {
-  font-family           : "Satisfy", cursive;
-  font-size             : 3rem;
-  color                 : #b42444;
+  font-family: "Satisfy", cursive;
+  font-size: 3rem;
+  color: #b42444;
 }
 .about .content .title {
-  font-size             : 3rem;
-  padding-top           : 0.5rem;
-  color                 : #130f40;
+  font-size: 3rem;
+  padding-top: 0.5rem;
+  color: #130f40;
 }
 
 .about .content p {
-  padding               : 1rem 0;
-  font-size             : 1.4rem;
-  line-height           : 2;
-  color                 : #666;
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  line-height: 2;
+  color: #666;
 }
 
 .about .content .icons-container {
-  margin-top            : 3rem;
-  display               : flex;
-  flex-wrap             : wrap;
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about .content .icons-container .icons {
-  display               : flex;
-  align-items           : center;
-  gap                   : 2rem;
-  padding               : 2rem;
-  flex                  : 1 1 20rem;
-  border-radius         : 1rem;
-  background            : #fff;
-  margin-right          : 1.5rem;
-  margin-bottom         : 1.5rem;
-  box-shadow            : 0 1rem 1rem rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex: 1 1 20rem;
+  border-radius: 1rem;
+  background: #fff;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
 }
 
 .about .content .icons-container .icons h3 {
-  font-size             : 1.7rem;
-  color                 : #130f40;
+  font-size: 1.7rem;
+  color: #130f40;
 }
 
 .about .content .icons-container .icons:hover h3 {
-  transform             : translateX(5px);
-  transition            : 0.5s ease;
+  transform: translateX(5px);
+  transition: 0.5s ease;
 }
 
 .about .content .icons-container .icons:hover img {
-  transform             : translateY(-2px);
-  transition            : 0.5s ease;
+  transform: translateY(-2px);
+  transition: 0.5s ease;
 }
 /* POPULAR======>>>>>> */
 
 .popular .box-container {
-  display               : grid;
-  grid-template-columns : repeat(auto-fit, minmax(25rem, 1fr));
-  gap                   : 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
 }
 
 .popular .box-container .box {
-  border-radius         : 1rem;
-  position              : relative;
-  background            : #f7f6f6de;
-  padding               : 2rem;
-  text-align            : center;
+  border-radius: 1rem;
+  position: relative;
+  background: #f7f6f6de;
+  padding: 2rem;
+  text-align: center;
 }
 
 .popular .box-container .box .fa-heart {
-  position              : absolute;
-  top                   : 1.5rem;
-  right                 : 1.5rem;
-  font-size             : 2rem;
-  color                 : #666;
-  cursor                : pointer;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 2rem;
+  color: #666;
+  cursor: pointer;
 }
 
 .popular .box-container .box .fa-heart:hover {
-  color                 : red;
+  color: red;
 }
 
 .popular .box-container .box .image {
-  margin                : 1rem 0;
-  animation             : rotate 10s infinite linear;
+  margin: 1rem 0;
+  animation: rotate 10s infinite linear;
 }
 
 .popular .box-container .box .shake {
   /* margin: 1rem 0; */
-  animation             : shake 5s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite both;
-  transform             : translate3d(0, 0, 0);
-  backface-visibility   : hidden;
-  perspective           : 1000px;
+  animation: shake 5s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
 
 .popular .box-container .image img {
-  height                : 15rem;
+  height: 15rem;
 }
 .popular .box-container .image img:hover {
-  transform             : scale(1.2);
+  transform: scale(1.2);
 }
 
 .popular .box-container .box .content h3 {
-  font-size             : 2rem;
-  color                 : #130f40;
+  font-size: 2rem;
+  color: #130f40;
 }
 
 .popular .box-container .box .content .stars {
-  padding               : 1rem 0;
-  font-size             : 1.7rem;
+  padding: 1rem 0;
+  font-size: 1.7rem;
 }
 
 .popular .box-container .box .content .stars i {
-  color                 : gold;
+  color: gold;
 }
 
 .popular .box-container .box .content .stars span {
-  color                 : rgb(24, 22, 22);
-  font-weight           : 900;
+  color: rgb(24, 22, 22);
+  font-weight: 900;
 }
 
 .popular .box-container .box .content .price {
-  font-size             : 2rem;
-  color                 : #130f40;
+  font-size: 2rem;
+  color: #130f40;
 }
 
 .popular .box-container .box .content .price span {
-  font-size             : 1.5rem;
-  color                 : #666;
-  text-decoration       : line-through;
+  font-size: 1.5rem;
+  color: #666;
+  text-decoration: line-through;
 }
 
 .banner .row-banner {
-  background            : url(/image/row-banner.png) no-repeat;
-  height                : 45rem;
-  background-size       : cover;
-  background-position   : center;
-  position              : relative;
+  background: url(/image/row-banner.png) no-repeat;
+  height: 45rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 .banner .row-banner h3 {
-  font-size             : 3rem;
-  color                 : #a01634;
-  text-align            : center;
-  font-family           : "Satisfy", cursive;
+  font-size: 3rem;
+  color: #a01634;
+  text-align: center;
+  font-family: "Satisfy", cursive;
 }
 .banner .row-banner .content {
-  position              : absolute;
-  top                   : 50%;
-  left                  : 7%;
-  transform             : translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  transform: translateY(-50%);
 }
 
 .banner .row-banner .content span {
-  font-family           : "Satisfy", cursive;
-  font-size             : 4rem;
-  color                 : #27ae60;
+  font-family: "Satisfy", cursive;
+  font-size: 4rem;
+  color: #27ae60;
 }
 .banner .row-banner .content h3 {
-  font-size             : 6rem;
-  color                 : #b42444;
-  text-transform        : uppercase;
+  font-size: 6rem;
+  color: #b42444;
+  text-transform: uppercase;
 }
 .banner .row-banner .content p {
-  font-size             : 2rem;
-  padding-bottom        : 1rem;
-  font-style            : italic;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  font-style: italic;
 }
 
 .banner .grid-banner {
-  display               : grid;
-  grid-template-columns : repeat(auto-fit, minmax(30rem, 1fr));
-  gap                   : 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
 }
 
 .banner .grid-banner .grid {
-  position              : relative;
-  border-radius         : 1rem;
-  overflow              : hidden;
-  height                : 45rem;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 45rem;
 }
 .banner .grid-banner .grid:hover img {
-  transform             : scale(1.1);
+  transform: scale(1.1);
 }
 
 .banner .grid-banner .grid img {
-  height                : 100%;
-  width                 : 100%;
-  object-fit            : cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .banner .grid-banner .grid .content {
-  position              : absolute;
-  top                   : 2rem;
-  padding               : 0 2rem;
+  position: absolute;
+  top: 2rem;
+  padding: 0 2rem;
 }
 
 .banner .grid-banner .grid .content.center span {
-  color                 : #666;
+  color: #666;
 }
 
 .banner .grid-banner .grid .content.center h3 {
-  color                 : #130f40;
+  color: #130f40;
 }
 
 .banner .grid-banner .grid .content span {
-  font-size             : 2.5rem;
-  color                 : #fff;
+  font-size: 2.5rem;
+  color: #fff;
 }
 
 .banner .grid-banner .grid .content h3 {
-  font-size             : 3rem;
-  color                 : #fff;
-  padding-top           : 0.5rem;
+  font-size: 3rem;
+  color: #fff;
+  padding-top: 0.5rem;
 }
 
 .menu .box-container {
-  display               : grid;
-  grid-template-columns : repeat(auto-fit, minmax(30rem, 1fr));
-  gap                   : 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
 }
 
 .menu .box-container .box {
-  border-radius         : 1rem;
-  background            : #f7f7f7;
-  padding               : 2rem;
-  display               : flex;
-  align-items           : center;
-  gap                   : 1.5rem;
+  border-radius: 1rem;
+  background: #f7f7f7;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .menu .box-container .box:hover {
-  background            : #ce3758;
+  background: #ce3758;
 }
 
 .menu .box-container .box:hover .content h3 {
-  color                 : #fff;
+  color: #fff;
 }
 
 .menu .box-container .box img {
-  height                : 10rem;
+  height: 10rem;
 }
 .menu .box-container .box:hover img {
-  padding-right         : 7px;
-  transform             : scale(1.1);
+  padding-right: 7px;
+  transform: scale(1.1);
 }
 
 .menu .box-container .box .content h3 {
-  font-size             : 2rem;
-  color                 : #130f40;
-  padding-bottom        : 0.5rem;
+  font-size: 2rem;
+  color: #130f40;
+  padding-bottom: 0.5rem;
 }
 
 .menu .box-container .box .content .price {
-  font-size             : 1.8rem;
-  color                 : #b42444;
+  font-size: 1.8rem;
+  color: #b42444;
 }
 
 .menu .box-container .box:hover .content .price {
-  color                 : #cbe9e4;
+  color: #cbe9e4;
 }
 
 .order .icons-container {
-  display               : grid;
-  grid-template-columns : repeat(auto-fit, minmax(30rem, 1fr));
-  gap                   : 1.5rem;
-  margin-bottom         : 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .order .icons-container .icons {
-  border-radius         : 1rem;
-  padding               : 2rem;
-  text-align            : center;
-  background            : #f7f7f7;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  background: #f7f7f7;
 }
 
 .order .icons-container .icons img {
-  height                : 10rem;
+  height: 10rem;
 }
 
 .order .icons-container .icons:hover img {
-  transform             : translateY(-8px);
+  transform: translateY(-8px);
 }
 
 .order .icons-container .icons h3 {
-  font-size             : 2rem;
-  color                 : #130f40;
-  margin-top            : 0.5rem;
+  font-size: 2rem;
+  color: #130f40;
+  margin-top: 0.5rem;
 }
 
 .order form {
-  background            : #f7f7f7;
-  padding               : 2rem;
-  border-radius         : 1rem;
+  background: #f7f7f7;
+  padding: 2rem;
+  border-radius: 1rem;
 }
 .order form .flex {
-  display               : flex;
-  flex-wrap             : wrap;
-  align-items           : center;
-  justify-content       : space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .order form .flex .inputBox {
-  width                 : 49%;
-  padding               : 0.7rem 3px;
+  width: 49%;
+  padding: 0.7rem 3px;
 }
 .order form .flex .inputBox span {
-  font-size             : 1.4rem;
-  color                 : #130f40;
-  text-shadow           : 0 1rem 1rem rgba(0, 0, 0, 0.05);
-  font-weight           : 600;
-  display               : flex;
-  align-items           : center;
-  gap                   : 0.5rem;
+  font-size: 1.4rem;
+  color: #130f40;
+  text-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 .order form .flex .inputBox span .bx {
-  font-size             : 2rem;
+  font-size: 2rem;
 }
 
 .order form .flex input,
 .order form .flex textarea {
-  margin-top            : 0.5rem;
-  padding               : 1rem 1.2rem;
-  width                 : 100%;
-  border-radius         : 4rem;
-  border                : 1px solid #e4a0af;
-  outline               : none;
-  appearance            : none;
-  background            : rgba(255, 249, 249, 0.5);
-  font-size             : 1.7rem;
-  text-transform        : capitalize;
-  color                 : #130f40;
-  font-family           : Josefin Slab;
+  margin-top: 0.5rem;
+  padding: 1rem 1.2rem;
+  width: 100%;
+  border-radius: 4rem;
+  border: 1px solid #e4a0af;
+  outline: none;
+  appearance: none;
+  background: rgba(255, 249, 249, 0.5);
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #130f40;
+  font-family: Josefin Slab;
 }
 .order form .flex textarea {
-  border-radius         : 1rem;
-  resize                : none;
-  height                : 20rem;
+  border-radius: 1rem;
+  resize: none;
+  height: 20rem;
 }
 
 .order form .flex input::placeholder,
 .order form .flex textarea::placeholder {
-  opacity               : 0.5;
+  opacity: 0.5;
 }
 
 .order form .flex .map {
-  height                : 20rem;
-  margin-top            : 0.5rem;
-  width                 : 100%;
-  border-radius         : 1rem;
+  height: 20rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  border-radius: 1rem;
 }
 
 .footer {
-  background            : #f7f7f7;
+  background: #f7f7f7;
 }
 
 .footer .newsletter {
-  text-align            : center;
-  margin-bottom         : 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .footer .newsletter h3 {
-  font-size             : 2.5rem;
-  color                 : #130f40;
-  padding-bottom        : 1rem;
+  font-size: 2.5rem;
+  color: #130f40;
+  padding-bottom: 1rem;
 }
 
 .footer .newsletter form {
-  max-width             : 75rem;
-  margin                : 1rem auto;
-  display               : flex;
-  border-radius         : 3rem;
-  overflow              : hidden;
-  border                : 1px solid #e4a0af;
+  max-width: 75rem;
+  margin: 1rem auto;
+  display: flex;
+  border-radius: 3rem;
+  overflow: hidden;
+  border: 1px solid #e4a0af;
 }
 
 .footer .newsletter form input[type="email"] {
-  width                 : 100%;
-  padding               : 0.9rem 2rem;
-  font-size             : 1.6rem;
-  background            : rgba(255, 249, 249, 0.5);
-  color                 : #130f40;
-  text-transform        : capitalize;
+  width: 100%;
+  padding: 0.9rem 2rem;
+  font-size: 1.6rem;
+  background: rgba(255, 249, 249, 0.5);
+  color: #130f40;
+  text-transform: capitalize;
 }
 
 .footer .newsletter form input[type="submit"] {
-  padding               : 0px 2rem;
-  font-size             : 1.6rem;
-  color                 : #fff;
-  background            : #b42444;
-  cursor                : pointer;
-  font-weight           : 900;
+  padding: 0px 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  background: #b42444;
+  cursor: pointer;
+  font-weight: 900;
 }
 
 .footer .newsletter form input[type="submit"]:hover {
-  background            : crimson;
+  background: crimson;
 }
 
 .footer .box-container {
-  display               : grid;
-  gap                   : 1.5rem;
-  grid-template-columns : repeat(auto-fit, minmax(25rem, 1fr));
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
 .footer .box-container .box h3 {
-  font-size             : 2.2rem;
-  color                 : #130f40;
-  padding               : 1rem 0;
+  font-size: 2.2rem;
+  color: #130f40;
+  padding: 1rem 0;
 }
 
 .footer .box-container .box span {
-  color                 : #b42444;
-  font-weight           : 900;
-  font-size             : 1.5rem;
+  color: #b42444;
+  font-weight: 900;
+  font-size: 1.5rem;
 }
 
 .footer .box-container .box p {
-  font-size             : 1.4rem;
-  color                 : #666;
-  padding               : 1rem 0;
+  font-size: 1.4rem;
+  color: #666;
+  padding: 1rem 0;
 }
 
 .footer .box-container .box a {
-  display               : block;
-  font-size             : 1.4rem;
-  color                 : #666;
-  padding               : 1rem 0;
+  display: block;
+  font-size: 1.4rem;
+  color: #666;
+  padding: 1rem 0;
 }
 
 .footer .box-container .box a:hover {
-  color                 : crimson;
+  color: crimson;
 }
 
 .footer .box-container .box a:hover i {
-  padding-right         : 2rem;
+  padding-right: 2rem;
 }
 
 .footer .box-container .box a i {
-  padding-right         : 0.5rem;
-  color                 : #b42444;
+  padding-right: 0.5rem;
+  color: #b42444;
 }
 
 .footer .bottom {
-  padding-top           : 1rem;
-  text-align            : center;
+  padding-top: 1rem;
+  text-align: center;
 }
 
 .footer .bottom .share {
-  margin                : 1.5rem 0;
+  margin: 1.5rem 0;
 }
 
 .footer .bottom .share a {
-  height                : 4rem;
-  width                 : 4rem;
-  line-height           : 4rem;
-  font-size             : 2rem;
-  border-radius         : 0.5rem;
-  margin                : 0 0.3rem;
-  color                 : #fff;
-  background            : #b42444;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  margin: 0 0.3rem;
+  color: #fff;
+  background: #b42444;
 }
 
 .footer .bottom .share a:hover {
-  background            : crimson;
+  background: crimson;
 }
 
 .footer .bottom .credit {
-  font-size             : 1.5rem;
-  color                 : #666;
-  padding-top           : 1rem;
+  font-size: 1.5rem;
+  color: #666;
+  padding-top: 1rem;
 }
 .footer .bottom .credit .fa-heart {
-  color                 : #b42444;
+  color: #b42444;
 }
 .footer .bottom .credit span {
-  color                 : rgb(108, 8, 128);
-  font-weight           : 900;
+  color: rgb(108, 8, 128);
+  font-weight: 900;
 }
 
 @media (max-width: 991px) {
   html {
-    font-size           : 55%;
+    font-size: 55%;
+    overflow-x: hidden;
   }
   .header {
-    padding             : 2rem;
+    padding: 2rem;
   }
   section {
-    padding             : 2rem;
+    padding: 2rem;
   }
 }
 
 @media (max-width: 768px) {
   #menu-btn {
-    display             : inline-block;
+    display: inline-block;
   }
   .header .navbar {
-    position            : absolute;
-    top                 : 99%;
-    left                : 0;
-    right               : 0;
-    background          : #fff;
-    border-top          : 0.1rem solid rgba(0, 0, 0, 0.2);
-    border-bottom       : 0.1rem solid rgba(0, 0, 0, 0.2);
-    clip-path           : polygon(0 0, 100% 0, 100% 0, 0 0);
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   .header .navbar.active {
-    clip-path           : polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    animation           : fadeUp 0.4s linear;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    animation: fadeUp 0.4s linear;
   }
   .header .navbar.active a {
-    color               : #b42444;
+    color: #b42444;
   }
   .header .navbar.active a:hover {
-    color               : crimson;
-    transform           : translateX(7px);
+    color: crimson;
+    transform: translateX(7px);
   }
 
   .header .navbar a {
-    font-size           : 2rem;
-    margin              : 2rem;
-    display             : block;
+    font-size: 2rem;
+    margin: 2rem;
+    display: block;
   }
   .header .logo img {
-    width               : 250px;
+    width: 250px;
   }
   .order form .flex .inputBox {
-    width               : 100%;
+    width: 100%;
   }
 }
 
 @media (max-width: 460px) {
   html {
-    font-size           : 50%;
+    font-size: 50%;
+    overflow-x: hidden;
   }
   .shopping-cart-container .cart-total .box {
-    text-align          : center;
+    text-align: center;
   }
   .shopping-cart-container .cart-total .box .btn {
-    width               : 100%;
+    width: 100%;
   }
   .home .content h3 {
-    font-size           : 3rem;
+    font-size: 3rem;
   }
   .home .content p {
-    font-size           : 1.5rem;
+    font-size: 1.5rem;
   }
   .header .logo img {
-    width               : 180px;
+    width: 180px;
   }
   .home-img {
-    height              : 32rem;
+    height: 32rem;
   }
   .banner .row-banner .content h3 {
-    font-size           : 4rem;
+    font-size: 4rem;
   }
 }
 @media (max-width: 400px) {
   .header .logo img {
-    width               : 150px;
+    width: 150px;
   }
   .home-img {
     /* padding-left:-3rem; */
-    height              : 10rem;
+    height: 10rem;
   }
   .login-form-container {
-    width               : 100%;
-    margin-top          : -1rem;
+    width: 100%;
+    margin-top: -1rem;
   }
   .login-form-container .main {
-    margin-top          : 5rem;
-    width               : 280px;
+    margin-top: 5rem;
+    width: 280px;
   }
 }
 @media (max-width: 380px) {
   .header .logo img {
-    width               : 150px;
+    width: 150px;
   }
 }
 
 @media (max-width: 339px) {
   .header .icons .fas {
-    font-size           : 15px;
+    font-size: 15px;
   }
   .header .logo img {
-    width               : 120px;
+    width: 120px;
   }
 }
